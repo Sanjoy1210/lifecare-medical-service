@@ -1,0 +1,47 @@
+body {
+  background-color: #fcf7ff;
+}
+
+.single-service-item {
+  text-align: left;
+  border: 0;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: .3s;
+}
+
+.single-service-item,
+.service-thumb img {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.service-thumb {
+  overflow: hidden;
+  border-radius: 6px 6px 0 0;
+}
+
+.service-thumb img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-body {
+  border: 2px solid #ebf2f3;
+  border-top: 0;
+  padding: 36px 30px 30px;
+  transition: .3s;
+  border-radius: 0 0 6px 6px;
+}
+
+.single-service-item:hover {
+  background-color: #fff;
+  box-shadow: 0 0 20px 18px rgb(0 0 0/3%);
+}
+
+.single-service-item:hover .service-body {
+  border-color: transparent;
+}
