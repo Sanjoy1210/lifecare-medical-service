@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -10,18 +11,22 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto text-start">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
+              <NavLink className="nav-link" to="/home">Home</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Service</a>
+              {/* <a className="nav-link" href="#">Service</a> */}
+              <NavLink className="nav-link" to="/service">Service</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Blog</a>
+              {/* <a className="nav-link" href="#">Blog</a> */}
+              <NavLink className="nav-link" to="/blog">Blog</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Login</a>
+              {/* <a className="nav-link" href="#">Login</a> */}
+              <NavLink className="nav-link" to="/login">Login</NavLink>
             </li>
           </ul>
           <span className="navbar-text">

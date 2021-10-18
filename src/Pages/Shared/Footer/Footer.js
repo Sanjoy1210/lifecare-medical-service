@@ -41,7 +41,7 @@ const Footer = () => {
                 <div className="mb-3">
                   <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary">Subscribe</button>
               </form>
             </div>
           </div>
@@ -52,9 +52,9 @@ const Footer = () => {
             </div>
             <div className="contact-details">
               <p>Podcasting operational change management inside of workflows to establish a framework.</p>
-              <p>Medical Ltd, Manhattan 1258,New York, USA Lahore</p>
-              <p>(+1) 234 567 8901</p>
-              <p>hello@website.com</p>
+              <p><i className="fas fa-map-marker-alt"></i> Medical Ltd, Manhattan 1258,New York, USA Lahore</p>
+              <p><i className="fas fa-phone-alt"></i> (+1) 234 567 8901</p>
+              <p><i className="far fa-envelope"></i> lifecare@website.com</p>
             </div>
           </div>
         </div>
