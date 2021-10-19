@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Lily Steve",
+    "role": "Founder of Yoga",
+    "id": "9876",
+    "img": "https://i.ibb.co/JdvKKXG/doctor-11.jpg"
+  },
+  {
+    "name": "Mikey Mark",
+    "role": "Yoga Trainer",
+    "id": "9576",
+    "img": "https://i.ibb.co/ScbWfGD/doctor-14.jpg"
+  },
+  {
+    "name": "Lane Smith",
+    "role": "Yoga Trainer",
+    "id": "9806",
+    "img": "https://i.ibb.co/Bwzcck3/doctor-8.jpg"
+  },
+  {
+    "name": "Lois Jane",
+    "role": "Yoga Trainer",
+    "id": "98673",
+    "img": "https://i.ibb.co/KyqW52R/doctor-9.jpg"
+  },
+  {
+    "name": "Lois Jane",
+    "role": "Yoga Trainer",
+    "id": "9873",
+    "img": "https://i.ibb.co/WVHk7Xg/doctor-10.jpg"
+  },
+  {
+    "name": "Lois Jane",
+    "role": "Yoga Trainer",
+    "id": "98473",
+    "img": "https://i.ibb.co/jbYzP6c/doctor-1.webp"
+  }
+]
