@@ -1,10 +1,13 @@
 import React from 'react';
+import useAuth from '../../../hooks/useAuth';
 import googleIcon from '../../../images/google_1.png';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
 import './Login.css';
 
 const Login = () => {
+  const { signInUsingGoogle } = useAuth();
+
   return (
     <div>
       <Header />
@@ -30,7 +33,7 @@ const Login = () => {
 
           <div className="py-4">-------------- or Sign in with ------------</div>
           <div className="signin-tools">
-            <button className="btn signin-btn"><img src={googleIcon} alt="" /></button>
+            <button onClick={signInUsingGoogle} className="btn signin-btn"><img src={googleIcon} alt="" /></button>
             <button className="btn signin-btn"><i className="fab fa-facebook-f"></i></button>
           </div>
         </div>
