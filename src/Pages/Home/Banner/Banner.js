@@ -15,7 +15,7 @@ const Banner = () => {
       </div> */}
 
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-        <h1 className="banner-text">We make Quality Health Care</h1>
+        <h1 className="banner-text fw-bold text-secondary">We make Quality Health Care</h1>
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={banner1} className="d-block w-100" alt="..." />
