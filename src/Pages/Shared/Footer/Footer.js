@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="footer bg-secondary">
+    <div className="footer bg-light">
       <div className="container my-5 text-start pt-5">
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
           <div className="col">
@@ -41,7 +41,7 @@ const Footer = () => {
                 <div className="mb-3">
                   <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
                 </div>
-                <button type="submit" className="btn btn-primary">Subscribe</button>
+                <button type="submit" className="btn btn-warning">Subscribe</button>
               </form>
             </div>
           </div>

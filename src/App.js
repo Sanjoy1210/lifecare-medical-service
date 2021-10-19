@@ -10,6 +10,7 @@ import Blogs from "./Pages/Blogs/Blogs/Blogs";
 import Home from "./Pages/Home/Home/Home";
 import Login from "./Pages/Login/Login/Login";
 import PrivateRoute from "./Pages/Login/PrivateRoute/PrivateRoute";
+import Register from "./Pages/Login/Register/Register";
 import NotFound from "./Pages/NotFound/NotFound";
 import ServiceDetails from "./Pages/ServiceDetails/ServiceDetails/ServiceDetails";
 
@@ -25,18 +26,21 @@ function App() {
             <Route path="/home">
               <Home />
             </Route>
-            <Route path="/about">
+            <PrivateRoute path="/about">
               <About />
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path="/servicedetails/:serviceId">
               <ServiceDetails />
             </PrivateRoute>
             <Route path="/login">
               <Login />
             </Route>
-            <Route path="/blogs">
-              <Blogs />
+            <Route path="/register">
+              <Register />
             </Route>
+            <PrivateRoute path="/blogs">
+              <Blogs />
+            </PrivateRoute>
             <Route path="*">
               <NotFound />
             </Route>

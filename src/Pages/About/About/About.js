@@ -10,32 +10,32 @@ const About = () => {
     <div>
       <Header />
       {/* About us img */}
-      <div className="about-us">
+      <div className="about-us text-start">
         <div className="about-us-banner banner d-flex align-items-center justify-content-center">
           <img src={aboutThumb} alt="" />
         </div>
         {/* about us content */}
         <div className="about-us-content my-5">
           <div className="container py-5">
-            <h1 className="fw-bolder">About Us</h1>
+            <h1 className="fw-bold text-secondary text-center mb-4">About Us</h1>
             <div className="row">
               <div className="col-lg-6">
                 <img src={aboutImg} alt="" className="w-100" />
               </div>
               <div className="col-lg-6">
                 {/* <p className="text-danger fw-bold">// ABOUT US</p> */}
-                <h1 className="fw-bold text-secondary">Yoga For Your Mental and Physical Health</h1>
-                <p>Yoga offers physical and mental health benefits for people of all ages. And, if you’re going through an illness, recovering from surgery or living with a chronic condition, yoga can become an integral part of your treatment and potentially hasten healing. </p>
+                <h1 className="fw-bold text-secondary">Take Care Your Mental and Physical Health</h1>
+                <p>Our Clinic has grown to provide a world class facility for the treatment of tooth loss, dental cosmetics and bore advanced restorative dentistry. We are among the most qualified implant providers in the AUS with over 30 years of quality training and experience. </p>
 
                 <ul>
-                  <li><i className="fas fa-check-double"></i> Yoga improves strength, balance and flexibility.</li>
-                  <li><i className="fas fa-check-double"></i> Yoga helps with back pain relief.</li>
-                  <li><i className="fas fa-check-double"></i> Yoga benefits heart health.</li>
-                  <li><i className="fas fa-check-double"></i> Yoga relaxes you, to help you sleep better.</li>
-                  <li><i className="fas fa-check-double"></i> Yoga can mean more energy and brighter moods.</li>
+                  <li><i className="fas fa-check-double"></i> Best Online Professional Support </li>
+                  <li><i className="fas fa-check-double"></i> Get Instant Appointment</li>
+                  <li><i className="fas fa-check-double"></i> Take Care benefits heart health.</li>
+                  <li><i className="fas fa-check-double"></i> Highly Professional Staff</li>
+                  <li><i className="fas fa-check-double"></i> We Have 25 Years Experience</li>
                 </ul>
 
-                <button className="btn regular-btn">Discover more</button>
+                <button className="btn btn-warning">Discover more</button>
               </div>
             </div>
           </div>

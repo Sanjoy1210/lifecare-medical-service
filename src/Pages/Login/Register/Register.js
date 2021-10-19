@@ -1,16 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useHistory, useLocation } from 'react-router';
-import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
-import googleIcon from '../../../images/google_1.png';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
-import './Login.css';
+import googleIcon from '../../../images/google_1.png';
+import { Link } from 'react-router-dom';
 
-const Login = () => {
-  const { signInUsingGoogle, setIsLoading, handleEmailChange, handlePasswordChange, error, handleLogin } = useAuth();
-
-  // redirect
+const Register = () => {
+  const { handleEmailChange, handlePasswordChange, handleRegistration, error, signInUsingGoogle, setIsLoading } = useAuth();
   const location = useLocation();
   const history = useHistory();
   const redirect_uri = location.state?.from || '/home';
@@ -22,14 +19,13 @@ const Login = () => {
       })
       .finally(() => setIsLoading(false));
   }
-
   return (
     <div>
       <Header />
       <div className="container mt-4">
-        <h1 className="text-center pb-3">Log in Here</h1>
+        <h1 className="text-center pb-3">Sign up Here</h1>
         <div className="input-area">
-          <form onSubmit={handleLogin}>
+          <form onSubmit={handleRegistration}>
             <div className="mb-3">
               <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
               <input onBlur={handleEmailChange} type="email" className="form-control input-field" id="exampleInputEmail1" aria-describedby="emailHelp" required />
@@ -42,11 +38,11 @@ const Login = () => {
             <div className="mb-3 form-check">
               {/* <input type="checkbox" className="form-check-input" id="exampleCheck1" />
               <label className="form-check-label" htmlFor="exampleCheck1">Already have an account?</label> */}
-              <Link to="/register">Create an account</Link>
+              <Link to="/login">Already have an account?</Link>
             </div>
             {/* <button type="submit" className="btn btn-primary">Sign up</button> */}
             <div className="my-3 text-danger">{error}</div>
-            <input type="submit" value="Login" />
+            <input type="submit" value="Register" />
           </form>
 
           <div className="py-4">-------------- or Sign in with ------------</div>
@@ -61,4 +57,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

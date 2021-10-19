@@ -35,8 +35,8 @@ const Header = () => {
               }
             </li>
           </ul>
-          <span className="navbar-text">
-            Sign in as: {user?.displayName}
+          <span className="navbar-text ms-lg-3">
+            Sign in as: {user?.displayName || user?.email}
           </span>
         </div>
       </div>

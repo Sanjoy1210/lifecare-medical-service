@@ -1,0 +1,22 @@
+.banner-text {
+  position: absolute;
+  top: 220px;
+  left: 460px;
+  font-weight: 700;
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 668px) {
+  .banner-text {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+  }
+}
+@media only screen and (min-width: 669px) and (max-width: 991px) {
+  .banner-text {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+  }
+}

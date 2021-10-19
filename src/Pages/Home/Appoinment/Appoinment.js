@@ -3,9 +3,9 @@ import doctor from '../../../images/doctor.jpg';
 
 const Appoinment = () => {
   return (
-    <div className="appoinment-section">
+    <div className="appoinment-section my-5">
       <div className="container">
-        <h3>Make an appointment</h3>
+        <h1 className="mb-5 fw-bold text-secondary">Make an appointment</h1>
         <div className="row">
           <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
             <div className="form-floating mb-3">
