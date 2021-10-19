@@ -5,6 +5,7 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
+import Blogs from "./Pages/Blogs/Blogs/Blogs";
 import Home from "./Pages/Home/Home/Home";
 import Login from "./Pages/Login/Login/Login";
 import NotFound from "./Pages/NotFound/NotFound";
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/blogs">
+            <Blogs />
           </Route>
           <Route path="*">
             <NotFound />
