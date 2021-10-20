@@ -56,7 +56,7 @@ const Login = () => {
             </div>
             {/* <button type="submit" className="btn btn-primary">Sign up</button> */}
             <div className="my-3 text-danger">{error}</div>
-            <input type="submit" value="Login" />
+            <input type="submit" value="Login" className="regular-btn" />
           </form>
 
           <div className="py-4">-------------- or Sign in with ------------</div>
