@@ -6,7 +6,7 @@ const NotFound = () => {
   return (
     <div className="not-found">
       <Link to="/home">
-        <button className="btn btn-danger">Back to Homepage</button>
+        <button className="btn regular-btn">Back to Homepage</button>
       </Link>
     </div>
   );

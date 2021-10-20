@@ -12,7 +12,7 @@ const ServiceDetails = () => {
     fetch('/services.json')
       .then(res => res.json())
       .then(data => {
-        console.log(data);
+        // console.log(data);
         const serviceDetail = data.filter((service) => service.id == serviceId);
         setDetails(serviceDetail);
       });

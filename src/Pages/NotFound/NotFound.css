@@ -1,18 +1,35 @@
 .not-found {
-  background-image: url(../../images/404.png);
+  background-image: url(../../images/not_found.jpg);
   min-height: 100vh;
-  background-size: cover;
+  /* background-size: cover; */
+  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .not-found button {
-  position: relative;
-  top: 600px;
+  position: absolute;
+  top: 590px;
+  left: 580px;
 }
 
 @media only screen and (max-width: 668px) {
   .not-found {
-    background-origin: content-box;
+    background-size: cover;
+  }
+  .not-found button {
+    position: absolute;
+    top: 720px;
+    left: 67px;
+  }
+}
+@media only screen and (min-width: 668px) and (max-width: 991px) {
+  .not-found {
+    background-size: cover;
+  }
+  .not-found button {
+    position: absolute;
+    top: 885px;
+    left: 300px;
   }
 }
