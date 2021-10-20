@@ -16,7 +16,7 @@ import ServiceDetails from "./Pages/ServiceDetails/ServiceDetails/ServiceDetails
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <AuthProvider>
         <Router>
           <Switch>

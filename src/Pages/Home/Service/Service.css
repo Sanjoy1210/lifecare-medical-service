@@ -45,3 +45,9 @@ img {
 .single-service-item:hover .service-body {
   border-color: transparent;
 }
+
+@media only screen and (max-width: 668px) {
+  .service-body {
+    padding: 30px 10px 25px 15px;
+  }
+}

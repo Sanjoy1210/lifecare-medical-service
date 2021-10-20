@@ -16,19 +16,15 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto text-start">
             <li className="nav-item">
-              {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
               <NavLink className="nav-link" to="/home">Home</NavLink>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="#">Service</a> */}
               <NavLink className="nav-link" to="/about">About us</NavLink>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="#">Blog</a> */}
               <NavLink className="nav-link" to="/blogs">Blogs</NavLink>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="#">Login</a> */}
               {!user?.email ?
                 <NavLink className="nav-link" to="/login">Login</NavLink> :
                 <button onClick={logOut} className="btn btn-warning">Logout</button>

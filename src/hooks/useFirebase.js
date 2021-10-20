@@ -50,30 +50,12 @@ const useFirebase = () => {
     setPassword(event.target.value);
   }
 
-  const handleRegistration = (event) => {
-    event.preventDefault();
-    if (password.length < 6) {
-      setError('Password must be at least 6 characters long.');
-      return;
-    }
-
-    createUserWithEmailAndPassword(auth, email, password)
-      .then(result => {
-        setUser(result.user);
-        setError('');
-      })
-      .catch(error => {
-        setError(error.message);
-      })
+  const handleRegistration = () => {
+    return createUserWithEmailAndPassword(auth, email, password);
   }
 
-  const handleLogin = (event) => {
-    event.preventDefault();
-    signInWithEmailAndPassword(auth, email, password)
-      .then(result => {
-        setError('');
-      })
-      .catch(error => setError(error.message));
+  const handleLogin = () => {
+    return signInWithEmailAndPassword(auth, email, password)
   }
 
   return {
@@ -86,7 +68,9 @@ const useFirebase = () => {
     handlePasswordChange,
     handleRegistration,
     error,
-    handleLogin
+    setError,
+    handleLogin,
+    password
   };
 }
 
