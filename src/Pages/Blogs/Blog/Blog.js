@@ -15,7 +15,7 @@ const Blog = (props) => {
         <h4 className="card-title">{title}</h4>
         <p className="card-text">{description}</p>
 
-        <button className="btn btn-warning mt-4">Read more</button>
+        <button className="btn regular-btn mt-4">Read more</button>
       </div>
     </div>
   );

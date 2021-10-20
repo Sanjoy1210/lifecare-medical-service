@@ -27,11 +27,11 @@ const Header = () => {
             <li className="nav-item">
               {!user?.email ?
                 <NavLink className="nav-link" to="/login">Login</NavLink> :
-                <button onClick={logOut} className="btn btn-warning">Logout</button>
+                <button onClick={logOut} className="btn regular-btn">Logout</button>
               }
             </li>
           </ul>
-          <span className="navbar-text ms-lg-3">
+          <span className="navbar-text ms-lg-2">
             Sign in as: {user?.displayName || user?.email}
           </span>
         </div>

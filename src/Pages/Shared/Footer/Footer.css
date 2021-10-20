@@ -1,3 +1,7 @@
+.logo img {
+  width: 140px;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
@@ -16,12 +20,14 @@ ul {
 .icons-list li {
   margin-right: 1rem;
   border: 1px solid transparent;
+  border-radius: 50%;
   width: 2.108rem;
   height: 2.108rem;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all .5s;
 }
 
 .icons-list li i {
@@ -29,8 +35,10 @@ ul {
 }
 
 .icons-list li:hover {
-  border: 1px solid gray;
-  border-radius: 50%;
+  border: 1px solid #3da9fc;
+  background-color: #3da9fc;
+  color: #fff;
+  transform: scale(0.9);
 }
 
 @media only screen and (max-width: 668px) {

@@ -8,7 +8,9 @@ import OurDoctors from '../OurDoctors/OurDoctors/OurDoctors';
 const About = () => {
   return (
     <div>
+      {/* Header */}
       <Header />
+
       {/* About us img */}
       <div className="about-us text-start">
         <div className="about-us-banner banner d-flex align-items-center justify-content-center">
@@ -27,7 +29,7 @@ const About = () => {
                 <h1 className="fw-bold text-secondary">Take Care Your Mental and Physical Health</h1>
                 <p>Our Clinic has grown to provide a world class facility for the treatment of tooth loss, dental cosmetics and bore advanced restorative dentistry. We are among the most qualified implant providers in the AUS with over 30 years of quality training and experience. </p>
 
-                <ul>
+                <ul className="lh-lg">
                   <li><i className="fas fa-check-double"></i> Best Online Professional Support </li>
                   <li><i className="fas fa-check-double"></i> Get Instant Appointment</li>
                   <li><i className="fas fa-check-double"></i> Take Care benefits heart health.</li>
@@ -35,7 +37,7 @@ const About = () => {
                   <li><i className="fas fa-check-double"></i> We Have 25 Years Experience</li>
                 </ul>
 
-                <button className="btn btn-warning">Discover more</button>
+                <button className="btn regular-btn">Discover more</button>
               </div>
             </div>
           </div>
@@ -45,6 +47,7 @@ const About = () => {
       {/* our doctors */}
       <OurDoctors />
 
+      {/* Footer */}
       <Footer />
     </div>
   );

@@ -5,10 +5,11 @@ import './Introduce.css';
 const Introduce = () => {
   return (
     <div className="introduce-section my-5">
+      {/* introduce section */}
       <div className="container">
         <div className="row">
           <div className="col-lg-6 text-start pt-lg-5">
-            <h1 className="text-secondary fw-bold mb-4">OUR MEDICAL</h1>
+            <h1 className="text-secondary fw-bold mb-4">Our Medical</h1>
             <h1>We’re Setting the Standards in Research & Clinical Care</h1>
             <p>We provide the most full medical services, so every person could have the opportunity to receive qualitative medical help. Our Clinic has grown to provide a world class facility for the treatment of tooth loss, dental cosmetics and bore advanced restorative dentistry. We are among the most qualified implant providers in the USA with over 35 years of quality training and experience.</p>
             <h3 className="pt-3">Special Features</h3>
@@ -47,7 +48,7 @@ const Introduce = () => {
               </div>
             </div>
 
-            <button className="btn btn-warning">Contact us</button>
+            <button className="btn regular-btn">Contact us</button>
           </div>
           <div className="col-lg-6 pt-4 pt-lg-5">
             <div className="wrapper">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Footer.css';
+import lifeCare from '../../../images/life-care.png';
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
           <div className="col">
             <div className="logo">
-              <h1>LifeCare</h1>
+              <img src={lifeCare} alt="" />
               <p>We make Quality HealthCare</p>
             </div>
           </div>
@@ -41,7 +42,7 @@ const Footer = () => {
                 <div className="mb-3">
                   <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
                 </div>
-                <button type="submit" className="btn btn-warning">Subscribe</button>
+                <button type="submit" className="btn regular-btn">Subscribe</button>
               </form>
             </div>
           </div>

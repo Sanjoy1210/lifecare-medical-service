@@ -24,7 +24,7 @@ const Appoinment = () => {
               <input type="date" className="form-control" id="floatingDate" placeholder="Date" />
               <label htmlFor="floatingDate">mm/dd/yyyy</label>
             </div>
-            <button className="btn btn-warning mt-3">Send Message</button>
+            <button className="btn regular-btn mt-3">Send Message</button>
           </div>
           <div className="col-lg-6 text-start lh-lg order-1 order-lg-2">
             <div className="row">

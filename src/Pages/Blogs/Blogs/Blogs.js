@@ -18,7 +18,7 @@ const Blogs = () => {
       <Header />
       <div className="blogs-section">
         <div className="blog-title">
-          <h1 className="text-center fw-bolder">Read Our Articles</h1>
+          <h1 className="text-center fw-bolder text-secondary">Read Our Articles</h1>
         </div>
         <div className="blogs">
           <div className="container">

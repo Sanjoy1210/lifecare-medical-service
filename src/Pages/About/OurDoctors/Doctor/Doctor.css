@@ -24,16 +24,16 @@
 }
 
 .doctor-info h5 {
-  color: #f46150;
+  color: #3da9fc;
   font-weight: 700;
 }
 
 .icons span {
-  color: #f46150;
+  color: #3da9fc;
   width: 2rem;
   height: 2rem;
   padding: 17px;
-  border: 2px solid #f46150;
+  border: 2px solid #3da9fc;
   border-radius: 50%;
   font-size: 1.4rem;
   transition-duration: 0.5s;
@@ -43,7 +43,7 @@
 }
 
 .icons span:hover {
-  background-color: #f46150;
+  background-color: #3da9fc;
   color: #fff;
   transform: scale(0.9);
 }

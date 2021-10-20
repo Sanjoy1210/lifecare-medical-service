@@ -11,7 +11,6 @@ const OurDoctors = () => {
   return (
     <div className="our-team-section my-5">
       <div className="container">
-        <p className="text-center text-danger fw-bold">// Our Doctors</p>
         <h1 className="text-center text-secondary fw-bold">Meet Our Doctors</h1>
         <div className="row row-cols-md-4 mt-5">
           {

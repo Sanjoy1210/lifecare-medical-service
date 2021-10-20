@@ -7,7 +7,7 @@
 }
 
 .search-container {
-  background-color: #f05456;
+  background-color: #3da9fc;
   text-align: center;
   line-height: 40px;
   padding: 20px;
@@ -23,7 +23,7 @@
   font-size: 17px;
   background-color: #fff;
   outline: none;
-  border: 1px solid #f05456;
+  border: 1px solid #3da9fc;
   padding-left: 10px;
   border-radius: 5px 0 0 5px;
 }

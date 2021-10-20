@@ -14,7 +14,7 @@ const Service = ({ service }) => {
           <h5>{title}</h5>
           <p>{description.slice(0, 100)} <i className="fas fa-long-arrow-alt-right ps-2 text-primary"></i></p>
           <Link to={`/servicedetails/${id}`}>
-            <button className="btn btn-warning">See Details</button>
+            <button className="btn regular-btn">See Details</button>
           </Link>
         </div>
       </div>
