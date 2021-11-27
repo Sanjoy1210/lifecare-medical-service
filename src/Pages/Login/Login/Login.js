@@ -52,14 +52,14 @@ const Login = () => {
             <div className="mb-3 form-check">
               {/* <input type="checkbox" className="form-check-input" id="exampleCheck1" />
               <label className="form-check-label" htmlFor="exampleCheck1">Already have an account?</label> */}
-              <Link to="/register">Create an account</Link>
+              Don't have an account? <Link to="/register">Create an account</Link>
             </div>
             {/* <button type="submit" className="btn btn-primary">Sign up</button> */}
             <div className="my-3 text-danger">{error}</div>
             <input type="submit" value="Login" className="regular-btn" />
           </form>
 
-          <div className="py-4">-------------- or Sign in with ------------</div>
+          <div className="py-4 text-center">-------------- or Sign in with ------------</div>
           <div className="signin-tools">
             <button onClick={handleGoogleLogin} className="btn signin-btn"><img src={googleIcon} alt="" /></button>
             <button className="btn signin-btn"><i className="fab fa-facebook-f"></i></button>

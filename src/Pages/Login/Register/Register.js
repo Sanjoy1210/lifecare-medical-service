@@ -53,13 +53,13 @@ const Register = () => {
               <input onBlur={handlePasswordChange} type="password" className="form-control input-field" id="exampleInputPassword1" required />
             </div>
             <div className="mb-3 form-check">
-              <Link to="/login">Already have an account?</Link>
+              Already have an account? <Link to="/login">Log in here</Link>
             </div>
             <div className="my-3 text-danger">{error}</div>
             <input type="submit" value="Register" className="regular-btn" />
           </form>
 
-          <div className="py-4">-------------- or Sign in with ------------</div>
+          <div className="py-4 text-center">-------------- or Sign in with ------------</div>
           <div className="signin-tools">
             <button onClick={handleGoogleLogin} className="btn signin-btn"><img src={googleIcon} alt="" /></button>
             <button className="btn signin-btn"><i className="fab fa-facebook-f"></i></button>
